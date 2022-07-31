@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("../img/pexels-pixabay-70347.jpg");
+    background-size:cover;
+    /* height: 5px; */
+    /* width: 100%; */
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 150px;
+    background: #1d3557;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    /* margin-left: 10%; */
+    flex: 20%;
+    color: white;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+.logo h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    color: #e63946;
+}
+
+.logo h3{
+    color: #e63946;
+}
+
+/* .menu{ */
+ ul{   
+    text-align: right;
+    padding: 20px;
+    flex: 70%;
+    /* border: 2px solid white; */
+}
+
+/* .menu a, .dropbtn{ */
+ul a{        
+    color: #e63946;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px 16px;
+}
+
+ul a:hover{
+    border-top: 5px solid black;
+    color: aqua;
+}
+
+/* .menu a:hover, .dropdown:hover .dropbtn{ */
+.dropdown:hover .dropbtn{
+    
+    /* color: gold; */
+    /* background: gold; */
+    /* background-image: linear-gradient(#1d3557 #457b9d #e63946); */
+    /* border-top: top 4px solid  */
+}
+
+#dropbtn{
+    background: gold;
+    padding: 10px 25px;
+    border-radius: 5px;
+    /* margin-right: 30%; */
+    /* margin-left: 10%; */
+}
+
+#dropbtn:hover{
+    color: black;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: #457b9d;
+    width: 180px;
+    /* border: 5px solid gold; */
+}
+
+.dropdown-content a{
+    color: #e63946;
+    display: block;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover{
+    color:aqua;
+    background: #e63946;
+    padding: 10px 25px;
+    border-radius: 5px;   
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.header{
+    height: 600px;
+    /* background:#1d3557; */
+}
