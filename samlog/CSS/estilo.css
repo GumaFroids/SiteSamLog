@@ -5,8 +5,9 @@
 }
 
 body{
-    background-image:url("../img/pexels-pixabay-70347.jpg");
-    background-size:cover;
+    /* background-image:url("../img/pexels-pixabay-70347.jpg"); */
+    /* opacity: 0; */
+    /* background-size:cover; */
     /* height: 5px; */
     /* width: 100%; */
     margin: 0;
@@ -16,7 +17,7 @@ body{
 .navbar{
     display: flex;
     flex-flow: row wrap;
-    height: 150px;
+    height: 100px;
     background: #1d3557;
     justify-content: center;
     align-items: center;
@@ -31,8 +32,9 @@ body{
 }
 
 .logo h1{
+    letter-spacing: 1px;
     font-family: 'Anton', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     color: #e63946;
 }
 
@@ -52,7 +54,7 @@ body{
 ul a{        
     color: #e63946;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px 16px;
 }
 
@@ -73,7 +75,7 @@ ul a:hover{
 #dropbtn{
     background: gold;
     padding: 10px 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     /* margin-right: 30%; */
     /* margin-left: 10%; */
 }
