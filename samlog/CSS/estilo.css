@@ -5,8 +5,9 @@
 }
 
 body{
+    background: #1d3557;
     /* background-image:url("../img/pexels-pixabay-70347.jpg"); */
-    background-image:url("../img/pexels-pixabay-327430.jpg");
+    /* background-image:url("../img/pexels-pixabay-327430.jpg"); */
     /* opacity: 0; */
     background-size:cover;
     /* height: 5px; */
@@ -124,7 +125,7 @@ section{
     padding: 5%;
     /* display: inline-block; */
     margin-top: 80px;
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     margin-left: 5%;
     margin-right: 5%;
     /* height: 400px; */
@@ -171,41 +172,80 @@ section h2{
     /* justify-content: space-around; */
 }
 
-article{
+/* article{ */
     /* background-image: linear-gradient(#1d3557, #e63946); */
-    background: #1d3557;
-    padding: 5%;
+    /* background: #1d3557; */
+    /* padding: 5%; */
     /* display: inline-block; */
-    margin-top: 80px;
-    border: 2px solid gold;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-top: 80px; */
+    /* border: 2px solid gold; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
     /* height: 400px; */
-    width: 90%;
-    height: 100%;
-    text-align: center;
-}
+    /* width: 90%; */
+    /* height: 100%; */
+    /* text-align: center; */
+/* } */
 
 .Nota{
+    /* margin-top: 500px; */
+    /* border: 2px solid gold; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    background: #1d3557;
+    text-align: center;
     cursor: context-menu;
-    height: 100px;
-    width: 100%;
+    /* /height: 100px; */
+    /* width: 100%; */
     font-size: 40px;
-    margin: 0;
+    /* margin:5px; */
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     color: #e63946;
     /* color: #e63946; */
-
 }
 
-#marte{
+.marte{
+    /* background-image: linear-gradient(gold, #e63946, red); */
+    margin: 0;
     border: 2px solid gold;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background: #1d3557; */
+    overflow: auto;
+    /* border: 2px solid gold; */
     /* width: 405px; */
 }
 
-#marte img{
+.marte img{
     float: left;
     margin-right: 20px;
 }
+
+.marte a{
+    /* background: gold; */
+    color: #e63946;
+    /* border-radius: 20px; */
+    padding: 5px;
+}
+
+.marte a:hover{
+    color:black;
+    background-image: linear-gradient(gold, #e63946, red);
+    /* background: gold; */
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.section{
+    height: 600px;
+    /* background:#1d3557; */
+}
+
+.SAM{
+    height: 100%;
+    /* background: #1d3557; */
+    /* opacity: 0.9; */
+}
+
 
