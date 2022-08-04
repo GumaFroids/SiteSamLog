@@ -248,4 +248,24 @@ section h2{
     /* opacity: 0.9; */
 }
 
+.rodape{
+    /* background-image: linear-gradient(gold, #e63946, red); */
+    letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: #e63946;
+}
+
+.rodape img{
+    width: 80px;
+}
+
+.zap{
+    height: 150px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+
 
