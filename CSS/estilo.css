@@ -15,16 +15,18 @@ body{
     overflow-x: hidden; /* PARA SUMIR A BARRA DE ROLAGE DA HORIZONTAL*/
 }
 
+
+/* REDES SOCIAIS TOPO */
 #contato_topo{
-/* background-color: #324e75; */
-position: relative;
-height: 50px;
-width: 100%;
-display: flex;
-justify-content:space-between;
-align-items: center;
-padding: 10px;
-background: linear-gradient(#e63946 5%,#1d3557);
+    /* background-color: #324e75; */
+    position: relative;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(#e63946 5%,#1d3557); /*degrade */
 }
 
 #contato_topo img{
@@ -35,9 +37,10 @@ background: linear-gradient(#e63946 5%,#1d3557);
 
 #contato_topo h2{
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 3px rgb(255, 255, 255);
-
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);/*Sombra das rede sociais*/
 }
+
+
 .navbar{
     display: flex;
     flex-flow: row wrap;
