@@ -12,8 +12,32 @@ body{
     /* width: 100%; */
     margin: 0;
     font-family: 'Heebo', sans-serif;
+    overflow-x: hidden; /* PARA SUMIR A BARRA DE ROLAGE DA HORIZONTAL*/
 }
 
+#contato_topo{
+/* background-color: #324e75; */
+position: relative;
+height: 50px;
+width: 100%;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 10px;
+background: linear-gradient(#e63946 5%,#1d3557);
+}
+
+#contato_topo img{
+    height: 30px;
+    padding: 2px;
+    margin-left: 2px;
+}
+
+#contato_topo h2{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+
+}
 .navbar{
     display: flex;
     flex-flow: row wrap;
@@ -21,6 +45,9 @@ body{
     background: #1d3557;
     justify-content: center;
     align-items: center;
+    position:sticky;
+    top: 0px;
+    z-index: 9999;
 }
 
 .logo{
@@ -76,6 +103,7 @@ ul a:hover{
     background: gold;
     padding: 10px 25px;
     border-radius: 10px;
+    z-index: 11;
     /* margin-right: 30%; */
     /* margin-left: 10%; */
 }
@@ -121,3 +149,12 @@ li.dropdown{
     /* background:#1d3557; */
 }
 
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    color: #e63946;
+    background-color: aquamarine;
+}
