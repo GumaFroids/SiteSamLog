@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image:url("../img/pexels-pixabay-70347.jpg"); */
+    /* opacity: 0; */
+    /* background-size:cover; */
+    /* height: 5px; */
+    /* width: 100%; */
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.header_fotos{
+    height: auto;
+    width: auto;
+    background-color: rebeccapurple;
+}
+
+.texto_oculto{
+    display: none;
+}
+.foto01{
+    height: 100vh;
+    background-color: #1d3557;
+
+}
+
+.foto02:hover{
+
+    height: 100vh;
+    background-color: orangered;
+}
+
+.foto03{
+    width: 100vh;
+    background-color: aqua;
+}

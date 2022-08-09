@@ -1,0 +1,126 @@
+/* div que contem todos os slide */
+.slider{
+	margin: 0 auto;
+	width: 1400px;
+	height: 600px;
+	overflow: hidden;
+}
+
+/* div que contem os input radio */
+.slides{
+	width: 1400px;
+	height: 600px;
+	display: flex;
+	justify-items: center;
+}
+
+/* esconde os input radio */
+.slides input{
+	display: none;
+}
+
+/* div onde as imagens ficam dentro */
+.slide{
+	width: 200%;
+	position: relative;
+	/* transition: 1s; */
+}
+
+/* tamanho das imagens */
+.slide img{
+	width: auto;
+	height: 600px;
+}
+
+
+/* Div onde contem o input manual */
+.manual-navigation{
+	position: absolute;
+	width: 1400px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+/* Criando o input manual configuracao */
+.manual-btn{
+	border:2px solid #ffffff;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+/* Para colocar espaço entre os input manual-btn (menos no ultimo) */
+/* last-child significa que nao pegue no ultimo elemento filho */
+.manual-btn:not(:last-child){
+	margin-right: 30px;
+}
+
+/* Preenchimento do input manual */
+.manual-btn:hover{
+	background-color:  #ff0630;
+}
+
+
+/* Esse comando vai pegar o irmao seguinte ao elemento #radio que ta dentro da DIV slides
+e ira aplicar o comando de margin left
+Assim sendo que o proximo irmao q queremos aplicar o comando seja o .first
+que seria a div class first  */
+
+
+/* quando o input radio tiver selecionado e for a DIV classe first */
+/* (~) isso significa que vai ser um seletor irmão o proximo elemento com a class .first */
+#radio1:checked ~ .first{
+	margin-left: 0;
+}
+/* quando o input radio tiver selecionado e não for a DIV classe first irá mover -25% a leeft*/
+#radio2:checked ~ .first{
+	margin-left: -1400px;
+}
+/* quando o input radio tiver selecionado e não for a DIV classe first irá mover -50% a leeft*/
+
+#radio3:checked ~ .first{
+	margin-left: -2800px;
+}
+/* quando o input radio tiver selecionado e não for a DIV classe first irá mover 75% a leeft*/
+
+#radio4:checked ~ .first{
+	margin-left: -4200px;
+}
+
+
+/* configuracao das div que esta dentro da div com a class navigation-auto */
+.navigation-auto div{
+	border: 2px solid #20a6ff;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+/* Para fazer aparecer as configuracoes feito nas divs */
+.navigation-auto{
+	position: absolute;
+	width: 1400px;
+	margin-top: 560px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Aplicar os espaços entre a class navigation-auto */
+.navigation-auto div:not(:last-child){
+	margin-right: 30px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background-color: #ff0630;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background-color:  #ff0630;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background-color:  #ff0630;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background-color:  #ff0630;
+}
